@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Inline,internal n external css</title>
+
+    <!-- internal css -->
+    <style>
+        p{
+            color:blue;        
+            background-color:rgb(210, 210, 130);
+            font-size: 30px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        
+        h2{
+            color: black; 
+            background-color: rgb(232, 24, 62)!important;
+            font-style: oblique;
+        }
+        </style>
+
+        <!-- External css -->
+        <link rel="stylesheet" href="stylesheet.css">
+
+</head>
+
+<body>
+    <!-- inline css -->
+    <h1 style="color: red; background-color: rgb(108, 24, 225); font-size: 20px;" >I am Inline CSS</h1>
+    <p style="color: purple; font: size 15px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, iusto excepturi. Debitis hic, praesentium ipsa provident porro iusto sit quam quas eius repudiandae quae dignissimos atque eligendi illum, itaque voluptatum.</p>
+
+    <!-- internal css -->
+    <h2>I am Intenal CSS</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, iusto excepturi. Debitis hic, praesentium ipsa provident porro iusto sit quam quas eius repudiandae quae dignissimos atque eligendi illum, itaque voluptatum.</p>
+    
+    <!-- External CSS -->
+    <h3>I am External CSS</h3>
+    <h2>this is overlaping or important function</h2>
+    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque assumenda, nemo labore alias repudiandae architecto. Necessitatibus ab repudiandae voluptate dignissimos nemo laboriosam tempora minus, id ullam amet harum ipsam commodi.</span>
+</body>
+</html>
